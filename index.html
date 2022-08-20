@@ -1,0 +1,58 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>News App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="flex justify-center bg-blue-700 py-2 shadow-2xl">
+        <div class="px-12">
+            <a class="pt-2 pb-2 mr-4 text-2xl justify-center flex whitespace-nowrap" href="">
+                <img class="w-1/12 mx-2 " src="images/news-icon.png" alt="">
+                <b class="text-white">NewsRoom</b>
+            </a>
+        </div>
+    </nav>
+    <div class=" justify-center " >
+        <div class="mx-10 p-5 justify-center">
+            <img class="w-1/12  mx-auto" src="images/pngegg.png" alt="">
+            <div class=" container flex justify-center  ">
+                <input class="w-1/2 border px-5 border-gray-400 shadow-xl rounded-l-lg focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1" type="text"   placeholder="What are you looking for?">
+                <button class="bg-red-500 p-3 shadow-lg rounded-r-lg text-white hover:bg-red-700">Search</button>
+            </div>
+               
+            
+        </div>
+    </div>
+    <div  id="variable">
+        <script >
+            var data="yuvraj";
+             for(var i=0;i<20;i++){
+        document.write(`<div class="mx-56 my-4 shadow-2xl  rounded-md">
+<div class="px-5 py-2 flex content-around ">
+    
+        <img  class=" drop-shadow-lg w-2/6 h-56 rounded-sm mx-4 my-4" src="images/pic.png" alt="wrong image">
+
+    <div >
+        <div class="py-4 px-7">
+            <h5 class="text-xl font-bold">CARD TITLE</h5>
+            <p class="relative flex flex-col">lorm dbkdug dmjh duigx, dguegiue dhgkyhdvhdv ygdqddgh</p>
+            <p class="mt-5" >Last updated 3 minutes ago</p>
+            <a class="my-3 cursor-pointer bg-gray-900 rounded text-white inline-block p-2"href="">Read More</a>
+            <p></p>
+        </div>
+    </div>
+</div>
+</div>`);
+}
+        </script>
+    </div>
+   
+</body>
+
+</html>

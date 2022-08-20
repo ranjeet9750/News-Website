@@ -1,0 +1,43 @@
+<html lang="en">
+
+<head>
+   
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    <title>News App</title>
+    
+          <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body  class="bg-gray-800 " >
+   
+    <nav class="flex justify-center bg-gradient-to-r from-blue-500 to-cyan-300  py-2 shadow-2xl">
+        <div class="px-12">
+            <a class="pt-2 pb-2 mr-4 text-2xl justify-center flex whitespace-nowrap" href="http://localhost:5000/">
+                <img class="w-1/12 mx-2 " src="images/news-icon.png" alt="">
+                <b class="text-white">NewsRoom</b>
+            </a>
+        </div>
+    </nav>
+    
+    <div class=" justify-center " >
+        <div class="mx-10 p-5 justify-center">
+            <img class="w-1/12  mx-auto" src="images/pngegg.png" alt="">
+            <div class=" container flex justify-center  ">
+               <form  class=" container flex justify-center  " action="/" method="POST">
+                 <input class="w-1/2 border px-5  border-gray-400 shadow-xl rounded-l-lg focus:bg-slate-100 focus:outline-none focus:border-sky-300 focus:ring-sky-300 focus:ring-1" type="text"  name="keyword" placeholder="What are you looking for?" >
+                <button  type="submit" class="bg-red-600 p-3 shadow-lg rounded-r-lg text-white hover:bg-red-500 hover:border  hover:border-red-600 focus:bg-red-700">Search</button>
+            </form>
+            </div>
+               
+            
+        </div>
+    </div>
+
+    <h1 class="text-7xl text-center text-white">OOPS! Your Request Not Found...</h1>
+    </body>
+</html>
